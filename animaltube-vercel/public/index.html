@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AnimalTube – filmy o zwierzętach publikowane przez społeczność</title>
+<meta name="description" content="AnimalTube to platforma wideo o zwierzętach. Publikuj własne filmy, obserwuj kanały, komentuj i oglądaj nagrania psów, kotów, ptaków i dzikich zwierząt.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#ff6a00">
+<link rel="canonical" href="https://TWOJA-DOMENA.pl/">
+<link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png"><link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="author" content="AnimalTube"><link rel="alternate" hreflang="pl" href="https://TWOJA-DOMENA.pl/"><link rel="sitemap" type="application/xml" href="sitemap.xml">
+<meta property="og:site_name" content="AnimalTube">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="AnimalTube – filmy o zwierzętach">
+<meta property="og:description" content="Publikuj i oglądaj filmy o zwierzętach. Obserwuj kanały, komentuj, polubiaj.">
+<meta property="og:url" content="https://TWOJA-DOMENA.pl/">
+<meta property="og:image" content="https://TWOJA-DOMENA.pl/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo AnimalTube – pomarańczowy przycisk play z odciskiem łapy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AnimalTube – filmy o zwierzętach">
+<meta name="twitter:description" content="Publikuj i oglądaj filmy o zwierzętach. Obserwuj kanały, komentuj, polubiaj.">
+<meta name="twitter:image" content="https://TWOJA-DOMENA.pl/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AnimalTube","url":"https://TWOJA-DOMENA.pl/","inLanguage":"pl","description":"Platforma wideo o zwierzętach tworzona przez społeczność."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AnimalTube","url":"https://TWOJA-DOMENA.pl/","logo":"https://TWOJA-DOMENA.pl/logo.png"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fffaf5;--sf:#fff;--tx:#1d1208;--mu:#6b5a4a;--ln:#f0e2d3;--or:#ff6a00;--or2:#e85d00;--ac:#1d1208;--acx:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150d06;--sf:#201409;--tx:#fbefe2;--mu:#b9a28c;--ln:#3a2714;--ac:#fbefe2;--acx:#150d06}}
+:root[data-theme="dark"]{--bg:#150d06;--sf:#201409;--tx:#fbefe2;--mu:#b9a28c;--ln:#3a2714;--ac:#fbefe2;--acx:#150d06}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 Nunito,system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--sf);z-index:30}
+h1,h2,h3{font-family:"Baloo 2",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--or);outline-offset:2px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--sf);border-bottom:1px solid var(--ln);display:flex;gap:14px;align-items:center;padding:8px 16px;flex-wrap:wrap}
+.logo img{height:44px;width:auto;display:block}
+.search{flex:1;min-width:180px;max-width:560px;display:flex}
+.search input{flex:1;min-width:0;border:1px solid var(--ln);background:var(--bg);padding:9px 16px;border-radius:999px 0 0 999px}
+.search button{border:1px solid var(--ln);border-left:0;background:var(--bg);padding:0 16px;border-radius:0 999px 999px 0}
+.btn{border:0;background:var(--or);color:#fff;font-weight:700;padding:9px 18px;border-radius:999px}
+.btn:hover{background:var(--or2)}
+.btn.ghost{background:transparent;color:var(--tx);border:1px solid var(--ln)}
+.btn.on{background:var(--ac);color:var(--acx)}
+.me{margin-left:auto;display:flex;gap:10px;align-items:center}
+.av{width:36px;height:36px;border-radius:50%;background:var(--or);color:#fff;display:grid;place-items:center;font-weight:800;font-family:"Baloo 2"}
+nav{display:flex;gap:6px;overflow-x:auto;padding:10px 16px 0;max-width:1400px;margin:auto}
+nav a{white-space:nowrap;text-decoration:none;padding:7px 14px;border-radius:999px;font-weight:700;color:var(--mu)}
+nav a.cur{background:var(--or);color:#fff}
+main{max-width:1400px;margin:auto;padding:16px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:12px}
+.chip{border:1px solid var(--ln);background:var(--sf);border-radius:10px;padding:6px 14px;white-space:nowrap}
+.chip.cur{background:var(--ac);color:var(--acx)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:22px 16px}
+.card{text-decoration:none;display:block}
+.th{aspect-ratio:16/9;border-radius:14px;background:linear-gradient(135deg,#ff8a2a,#e83a00);overflow:hidden;position:relative}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.card h3{font-size:1.05rem;margin-top:8px}
+.mu{color:var(--mu);font-size:.9rem}
+.empty{text-align:center;padding:60px 16px;border:2px dashed var(--ln);border-radius:20px}
+.empty h2{margin-bottom:8px}
+.watch{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px}
+.player{position:relative;background:#000;border-radius:16px;overflow:hidden;aspect-ratio:16/9}
+.player video{width:100%;height:100%;display:block}
+.tag{position:absolute;left:12px;top:12px;background:var(--or);color:#fff;font-weight:700;font-size:.8rem;padding:3px 10px;border-radius:999px;pointer-events:none}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.row .sp{flex:1}
+.box{background:var(--sf);border:1px solid var(--ln);border-radius:14px;padding:14px}
+.cm{display:flex;gap:10px;margin:14px 0}
+.side .card{display:grid;grid-template-columns:150px 1fr;gap:10px;margin-bottom:12px}
+.side .card h3{margin:0;font-size:.95rem}
+textarea,input[type=text],input[type=password],select{width:100%;border:1px solid var(--ln);background:var(--bg);border-radius:10px;padding:9px 12px}
+dialog{border:1px solid var(--ln);border-radius:18px;background:var(--sf);color:var(--tx);max-width:520px;width:calc(100% - 32px);padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+dialog label{display:block;font-weight:700;margin:12px 0 4px}
+footer{text-align:center;color:var(--mu);padding:24px 16px 80px;font-size:.9rem}
+.studio{display:grid;grid-template-columns:120px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--ln)}
+@media(max-width:900px){.watch{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#home" aria-label="AnimalTube – strona główna"><img src="logo.png" alt="AnimalTube" width="66" height="44"></a>
+  <div class="search" role="search"><input id="q" type="text" placeholder="Szukaj filmów o zwierzętach" aria-label="Szukaj"><button id="qb" aria-label="Szukaj">Szukaj</button></div>
+  <div class="me" id="me"></div>
+</header>
+<nav id="nav" aria-label="Główna nawigacja"></nav>
+<main id="main"><h1>AnimalTube – filmy o zwierzętach</h1><noscript><p>AnimalTube wymaga JavaScriptu, aby oglądać i publikować filmy o zwierzętach.</p></noscript></main>
+<footer>AnimalTube – filmy o zwierzętach od społeczności.</footer>
+
+<dialog id="dlg"></dialog>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const INTRO='intro.mp4',BLOB=x=>x;
+const CATS=['Wszystkie','Psy','Koty','Ptaki','Dzikie zwierzęta','Zwierzęta wodne','Gady i płazy','Zwierzęta domowe','Śmieszne','Poradniki'];
+const S={me:null,user:null,db:null,assets:null,videos:[],likes:[],subs:[],comments:[],names:{},q:'',cat:'Wszystkie',seen:{}};
+const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const myId=()=>S.me&&S.me.id;
+const nm=i=>S.names[i]||'Użytkownik';
+const rtf=new Intl.RelativeTimeFormat('pl',{numeric:'auto'});
+function ago(t){const d=(t-Date.now())/1000,u=[['year',31536000],['month',2592000],['day',86400],['hour',3600],['minute',60]];for(const[n,s]of u)if(Math.abs(d)>=s)return rtf.format(Math.round(d/s),n);return 'przed chwilą'}
+const views=n=>(n||0)+' wyśw.';
+
+
+/* data */
+/* Backend: serwer Node na Vercelu (/api), dane w Redis. Logowanie: sama nazwa, konto pamieta przegladarka (localStorage) */
+let TOKEN=(store.get('at_accts',{})[store.get('at_active','')]||{}).token||'';
+async function api(path,body,get){
+  const r=await fetch('/api/'+path,{method:get?'GET':'POST',headers:{'Content-Type':'application/json',...(TOKEN?{Authorization:'Bearer '+TOKEN}:{})},body:get?undefined:JSON.stringify(body)});
+  const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Błąd serwera');return j}
+let ver=-1;
+async function pull(force){try{
+  if(!force){const x=await api('data?v=1',null,1);if(x.v===ver)return}
+  const d=await api('data',null,1);ver=d.v;
+  S.videos=(d.videos||[]).sort((a,b)=>(b.ts||0)-(a.ts||0));S.likes=d.likes||[];S.subs=d.subs||[];
+  S.comments=(d.comments||[]).sort((a,b)=>(b.ts||0)-(a.ts||0));
+  (d.profiles||[]).forEach(p=>S.names[p.id]=p.name);render()}catch(e){}}
+function mkDb(){const w=async(c,id,op,data)=>{await api('doc',{c,id,op,data});await pull(true)};
+  return{view:id=>api('doc',{c:'videos',id,op:'view'}).catch(()=>{}),
+    collection:c=>({doc:id=>({id,set:d=>w(c,id,'set',d),update:d=>w(c,id,'update',d),delete:()=>w(c,id,'delete')}),
+      add(d){return w(c,'c'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),'set',d)}})}}
+function setMe(u){S.me=u&&u.id?{id:u.id,name:u.name}:null;if(S.me)S.names[S.me.id]=S.me.name;render()}
+function logout(){TOKEN='';store.set('at_active','');S.me=null;render()}
+async function boot(){S.db=mkDb();S.assets=true;
+  if(TOKEN){try{setMe(await api('auth',{action:'me'}))}catch(e){logout()}}
+  pull(true);setInterval(()=>{if(!document.hidden)pull()},20000)}
+function init(){render();boot()}
+function names(){}
+function authView(){return S.me?`<h2>Konto</h2><p class="mu">Zalogowano jako <strong>${esc(S.me.name)}</strong>.</p><div class="row"><button class="btn" data-a="out">Wyloguj</button></div>`:`<h2>Konto</h2><p class="mu">Wpisz nazwę użytkownika. Bez hasła: konto zapamiętuje ta przeglądarka, więc przy ponownym logowaniu wystarczy ta sama nazwa.</p><label for="al">Nazwa użytkownika</label><input id="al" type="text" maxlength="16" autocomplete="username"><p class="mu" id="am" style="min-height:1.4em"></p><div class="row"><button class="btn" data-a="lg">Zaloguj</button></div>`}
+async function authDo(){const al=$('#al').value.trim(),m=$('#am');
+  const say=(t,ok)=>{m.textContent=t;m.style.color=ok?'#1a8f4e':'#d63a1f'};
+  if(!al){say('Podaj nazwę użytkownika!');return}
+  const k=al.toLowerCase(),A=store.get('at_accts',{});say('Łączenie z serwerem…',1);
+  try{let u;
+    if(A[k]){TOKEN=A[k].token;u=await api('auth',{action:'me'})}
+    else{u=await api('auth',{action:'register',name:al});A[k]={token:u.token,name:u.name};store.set('at_accts',A);TOKEN=u.token}
+    store.set('at_active',k);setMe(u);say('Zalogowano!',1);setTimeout(()=>modal(authView()),500);pull(true)}
+  catch(e){TOKEN='';if(A[k]&&/wygas/i.test(e.message)){delete A[k];store.set('at_accts',A);say('To konto wygasło na serwerze. Spróbuj jeszcze raz.')}else say(e.message)}}
+const vid=id=>S.videos.find(v=>v.id===id);
+const likeCount=id=>S.likes.filter(l=>l.vid===id&&l.v===1).length;
+const subCount=c=>S.subs.filter(s=>s.c===c).length;
+const isSub=c=>S.subs.some(s=>s.id===myId()+'_'+c);
+const hasLike=id=>S.likes.some(l=>l.id===id+'_'+myId()&&l.v===1);
+
+/* meta */
+function meta(t,d){document.title=t;const m=document.querySelector('meta[name=description]');if(m)m.content=d;
+  const o=document.querySelector('meta[property="og:title"]');if(o)o.content=t;
+  const od=document.querySelector('meta[property="og:description"]');if(od)od.content=d}
+function ld(v){let s=$('#ldv');if(!s){s=document.createElement('script');s.type='application/ld+json';s.id='ldv';document.head.appendChild(s)}
+  s.textContent=v?JSON.stringify({'@context':'https://schema.org','@type':'VideoObject',name:v.title,description:v.desc||v.title,thumbnailUrl:[location.origin+'/og-image.png'],uploadDate:new Date(v.ts).toISOString(),contentUrl:v.file,interactionStatistic:{'@type':'InteractionCounter',interactionType:'https://schema.org/WatchAction',userInteractionCount:v.views||0}}):''}
+
+/* views */
+const card=v=>`<a class="card" href="#watch-${v.id}"><div class="th">${v.thumb?`<img loading="lazy" src="${BLOB(v.thumb)}" alt="${esc(v.title)}">`:''}</div><h3>${esc(v.title)}</h3><div class="mu">${esc(nm(v.uid))}<br>${views(v.views)} · ${ago(v.ts)}</div></a>`;
+const empty=(h,p)=>`<div class="empty"><h2>${h}</h2><p class="mu">${p}</p>${myId()?'<button class="btn" data-a="up">Dodaj wideo</button>':''}</div>`;
+const list=a=>a.length?`<div class="grid">${a.map(card).join('')}</div>`:'';
+
+function route(){const h=location.hash.slice(1)||'home';const i=h.indexOf('-');return i<0?[h,'']:[h.slice(0,i),h.slice(i+1)]}
+
+function render(){
+  const [r,p]=route();
+  $('#me').innerHTML=myId()?`<button class="btn" data-a="up">Prześlij wideo</button><button class="btn ghost" data-a="login">Konto</button><span class="av" title="${esc(S.me.name||'')}">${esc((S.me.name||'U')[0].toUpperCase())}</span>`:`<button class="btn" data-a="login">Konto</button>`;
+  $('#nav').innerHTML=[['home','Strona główna'],['subs','Subskrypcje'],['liked','Polubione'],['history','Historia'],['studio','Twoje wideo']].map(([k,t])=>`<a href="#${k}" class="${r===k?'cur':''}">${t}</a>`).join('');
+  names(S.videos.map(v=>v.uid).concat(S.comments.map(c=>c.u),myId()?[myId()]:[]));
+  const m=$('#main');ld(null);
+  if(r==='watch'){return watch(p)}
+  let h='';
+  if(r==='home'){meta('AnimalTube – filmy o zwierzętach publikowane przez społeczność','AnimalTube to platforma wideo o zwierzętach. Publikuj własne filmy, obserwuj kanały i oglądaj nagrania psów, kotów, ptaków i dzikich zwierząt.');
+    const q=S.q.toLowerCase();const a=S.videos.filter(v=>(S.cat==='Wszystkie'||v.cat===S.cat)&&(!q||(v.title+' '+(v.desc||'')+' '+v.cat).toLowerCase().includes(q)));
+    h=`<h1 style="position:absolute;left:-9999px">AnimalTube – filmy o zwierzętach</h1><div class="chips">${CATS.map(c=>`<button class="chip ${S.cat===c?'cur':''}" data-cat="${c}">${c}</button>`).join('')}</div>`+(a.length?list(a):empty(S.videos.length?'Brak wyników':'Jeszcze nie ma tu żadnych filmów',S.videos.length?'Zmień kategorię lub frazę wyszukiwania.':'AnimalTube tworzą użytkownicy. Zaloguj się i dodaj pierwszy film o swoim zwierzaku.'))}
+  else if(r==='subs'){meta('Subskrypcje – AnimalTube','Filmy z kanałów, które obserwujesz.');const ids=S.subs.filter(s=>s.u===myId()).map(s=>s.c);const a=S.videos.filter(v=>ids.includes(v.uid));
+    h=`<h1>Subskrypcje</h1><p class="mu">${myId()?'Najnowsze filmy z obserwowanych kanałów.':'Zaloguj się, aby obserwować kanały.'}</p>`+(a.length?list(a):empty('Nic tu jeszcze nie ma','Obserwuj kanały, aby zobaczyć ich filmy w tym miejscu.'))}
+  else if(r==='liked'){meta('Polubione – AnimalTube','Twoje polubione filmy.');const ids=S.likes.filter(l=>l.u===myId()&&l.v===1).map(l=>l.vid);const a=S.videos.filter(v=>ids.includes(v.id));
+    h=`<h1>Polubione filmy</h1>`+(a.length?list(a):empty('Brak polubionych','Polub film, a pojawi się tutaj.'))}
+  else if(r==='history'){meta('Historia – AnimalTube','Ostatnio oglądane filmy.');const ids=store.get('at_hist',[]);const a=ids.map(vid).filter(Boolean);
+    h=`<div class="row"><h1>Historia oglądania</h1><span class="sp"></span>${a.length?'<button class="btn ghost" data-a="clh">Wyczyść historię</button>':''}</div>`+(a.length?list(a):empty('Historia jest pusta','Filmy, które obejrzysz, zapiszą się tutaj w tej przeglądarce.'))}
+  else if(r==='channel'){const a=S.videos.filter(v=>v.uid===p);meta(nm(p)+' – kanał w AnimalTube','Filmy kanału '+nm(p)+' na AnimalTube.');
+    h=`<div class="row"><span class="av" style="width:64px;height:64px;font-size:1.8rem">${esc(nm(p)[0])}</span><div><h1>${esc(nm(p))}</h1><div class="mu">${subCount(p)} subskrybentów · ${a.length} filmów</div></div><span class="sp"></span>${subBtn(p)}</div>`+(a.length?list(a):empty('Ten kanał nie ma jeszcze filmów',''))}
+  else if(r==='studio'){meta('Twoje wideo – AnimalTube','Zarządzaj swoimi filmami.');const a=S.videos.filter(v=>v.uid===myId());
+    h=`<div class="row"><h1>Twoje wideo</h1><span class="sp"></span>${myId()?'<button class="btn" data-a="up">Prześlij wideo</button>':''}</div>`+(!myId()?empty('Zaloguj się','Po zalogowaniu zarządzasz tu swoimi filmami.'):a.length?a.map(v=>`<div class="studio"><div class="th">${v.thumb?`<img src="${BLOB(v.thumb)}" alt="">`:''}</div><div><a href="#watch-${v.id}"><strong>${esc(v.title)}</strong></a><div class="mu">${views(v.views)} · ${likeCount(v.id)} polubień · ${ago(v.ts)}</div></div><button class="btn ghost" data-del="${v.id}">Usuń</button></div>`).join(''):empty('Nie masz jeszcze filmów','Prześlij swój pierwszy film o zwierzętach.'))}
+  else h='<div class="empty"><h2>Nie ma takiej strony</h2><a href="#home">Wróć na stronę główną</a></div>';
+  m.innerHTML=h;
+}
+const subBtn=c=>c===myId()?'':`<button class="btn ${isSub(c)?'on':''}" data-sub="${c}">${isSub(c)?'Obserwujesz':'Obserwuj'}</button>`;
+
+function watch(id){
+  const v=vid(id),m=$('#main');
+  if(!v){m.innerHTML=S.videos.length||!S.db?'<div class="empty"><h2>Nie znaleziono filmu</h2><a href="#home">Wróć na stronę główną</a></div>':'<p class="mu">Wczytywanie…</p>';return}
+  meta(v.title+' – AnimalTube',(v.desc||v.title).slice(0,155));ld(v);
+  if(!$('#pl')||$('#pl').dataset.vid!==id){
+    m.innerHTML=`<div class="watch"><div><div class="player"><video id="pl" controls playsinline data-vid="${id}"${v.thumb?` poster="${BLOB(v.thumb)}"`:''}></video><span class="tag" id="tag">Wstęp AnimalTube</span></div><div id="info"></div></div><aside class="side" id="rel"></aside></div>`;
+    const pl=$('#pl');let intro=!!INTRO&&!INTRO.startsWith('__');pl.src=intro?INTRO:BLOB(v.file);
+    pl.onended=()=>{if(intro){intro=false;$('#tag').style.display='none';pl.src=BLOB(v.file);pl.play().catch(()=>{})}};
+    if(!S.seen[id]){S.seen[id]=1;const h=store.get('at_hist',[]).filter(x=>x!==id);h.unshift(id);store.set('at_hist',h.slice(0,100));if(S.db)S.db.view(id)}
+  }
+  const cm=S.comments.filter(c=>c.vid===id);
+  $('#info').innerHTML=`<h1 style="font-size:1.5rem;margin-top:12px">${esc(v.title)}</h1>
+  <div class="row"><a href="#channel-${v.uid}" class="row" style="text-decoration:none;margin:0"><span class="av">${esc(nm(v.uid)[0])}</span><span><strong>${esc(nm(v.uid))}</strong><br><span class="mu">${subCount(v.uid)} subskrybentów</span></span></a>${subBtn(v.uid)}<span class="sp"></span>
+  <button class="btn ${hasLike(id)?'on':'ghost'}" data-like="${id}">Lubię to · ${likeCount(id)}</button><button class="btn ghost" data-a="share">Udostępnij</button></div>
+  <div class="box"><strong>${views(v.views)} · ${ago(v.ts)} · ${esc(v.cat)}</strong><p style="margin:6px 0 0;white-space:pre-wrap">${esc(v.desc||'')}</p></div>
+  <h2 style="font-size:1.2rem;margin:18px 0 6px">${cm.length} komentarzy</h2>
+  ${myId()?`<div class="cm"><textarea id="ct" rows="2" placeholder="Dodaj komentarz"></textarea><button class="btn" data-a="cmt" data-v="${id}">Wyślij</button></div>`:'<p class="mu">Zaloguj się, aby komentować.</p>'}
+  ${cm.map(c=>`<div class="cm"><span class="av">${esc(nm(c.u)[0])}</span><div><strong>${esc(nm(c.u))}</strong> <span class="mu">${ago(c.ts)}</span><div style="white-space:pre-wrap">${esc(c.t)}</div>${c.u===myId()?`<button class="mu" style="border:0;background:none;padding:0" data-dc="${c.id}">Usuń</button>`:''}</div></div>`).join('')}`;
+  $('#rel').innerHTML=S.videos.filter(x=>x.id!==id).slice(0,12).map(card).join('');
+}
+
+/* actions */
+const dlg=$('#dlg');
+const modal=h=>{dlg.innerHTML=h+'<div class="row"><span class="sp"></span><button class="btn ghost" data-a="x">Zamknij</button></div>';if(!dlg.open)dlg.showModal()};
+document.addEventListener('click',async e=>{
+  const t=e.target.closest('button');if(!t)return;
+  const a=t.dataset.a;
+  if(t.dataset.cat){S.cat=t.dataset.cat;render()}
+  else if(a==='x')dlg.close();
+  else if(a==='login')modal(authView());else if(a==='lg')authDo(0);else if(a==='rg')authDo(1);else if(a==='out'){logout();dlg.close()}
+  else if(a==='up'){if(!S.assets)return modal('<h2>Brak uprawnień</h2><p>Twoje konto nie może teraz przesyłać plików na tę stronę.</p>');
+    modal(`<h2>Prześlij wideo</h2><label for="uf">Link https do pliku wideo (mp4 lub webm)</label><input id="uf" type="text" placeholder="https://..."><label for="ut">Tytuł</label><input id="ut" type="text" maxlength="100"><label for="ud">Opis</label><textarea id="ud" rows="3" maxlength="1000"></textarea><label for="uc">Kategoria</label><select id="uc">${CATS.slice(1).map(c=>`<option>${c}</option>`).join('')}</select><p class="mu" id="um">Na początku każdego filmu odtworzy się wstęp AnimalTube.</p><button class="btn" data-a="send">Opublikuj</button>`)}
+  else if(a==='send'){
+    const u=$('#uf').value.trim(),ti=$('#ut').value.trim(),um=$('#um');
+    if(!/^https:\/\/.+/i.test(u)||!ti){um.textContent='Podaj tytuł i link https do pliku wideo.';return}
+    t.disabled=true;um.textContent='Publikowanie…';
+    try{const th=await thumbOf(u),id='v'+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
+    await S.db.collection('videos').doc(id).set({title:ti,desc:$('#ud').value.trim(),cat:$('#uc').value,file:u,thumb:th,uid:myId(),ts:Date.now(),views:0});
+    dlg.close();location.hash='watch-'+id}catch(x){um.textContent=x.message;t.disabled=false}}
+  else if(t.dataset.sub){if(!myId())return modal('<h2>Zaloguj się</h2><p>Aby obserwować kanał, zaloguj się.</p>');const c=t.dataset.sub,d=S.db.collection('subs').doc(myId()+'_'+c);isSub(c)?d.delete().catch(()=>{}):d.set({u:myId(),c}).catch(()=>{})}
+  else if(t.dataset.like){if(!myId())return modal('<h2>Zaloguj się</h2><p>Aby polubić film, zaloguj się.</p>');const i=t.dataset.like,d=S.db.collection('likes').doc(i+'_'+myId());hasLike(i)?d.delete().catch(()=>{}):d.set({vid:i,u:myId(),v:1}).catch(()=>{})}
+  else if(a==='cmt'){const x=$('#ct').value.trim();if(!x)return;S.db.collection('comments').add({vid:t.dataset.v,u:myId(),t:x.slice(0,1000),ts:Date.now()}).then(()=>{$('#ct').value=''}).catch(()=>{})}
+  else if(t.dataset.dc)S.db.collection('comments').doc(t.dataset.dc).delete().catch(()=>{});
+  else if(t.dataset.del){if(confirm('Usunąć ten film?'))S.db.collection('videos').doc(t.dataset.del).delete().catch(()=>{})}
+  else if(a==='clh'){store.set('at_hist',[]);render()}
+  else if(a==='share'){try{await navigator.clipboard.writeText(location.href);t.textContent='Skopiowano link'}catch(x){modal('<h2>Link do filmu</h2><p>'+esc(location.href)+'</p>')}}
+});
+function thumbOf(u){return new Promise(res=>{const v=document.createElement('video');v.crossOrigin='anonymous';v.muted=true;v.preload='metadata';v.src=u;v.onloadeddata=()=>{v.currentTime=Math.min(1,(v.duration||2)/2)};v.onseeked=()=>{try{const c=document.createElement('canvas');c.width=320;c.height=180;c.getContext('2d').drawImage(v,0,0,320,180);res(c.toDataURL('image/jpeg',.6))}catch(x){res('')}};v.onerror=()=>res('');setTimeout(()=>res(''),8000)})}
+const doSearch=()=>{S.q=$('#q').value.trim();if(route()[0]!=='home')location.hash='home';else render()};
+$('#qb').onclick=doSearch;$('#q').onkeydown=e=>{if(e.key==='Enter')doSearch()};
+addEventListener('hashchange',()=>{window.scrollTo(0,0);render()});
+init();
+</script>
+</body>
+</html>
